@@ -1,0 +1,26 @@
+{
+  "name": "tiotsu_heroku_js",
+  "version": "1.0.0",
+  "description": "JavaScript MapData Jugaad",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shankoibito/tiotsu_heroku_js.git"
+  },
+  "author": "shankoibito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shankoibito/tiotsu_heroku_js/issues"
+  },
+  "homepage": "https://github.com/shankoibito/tiotsu_heroku_js#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mapbox": "^1.0.0-beta9",
+    "mongoose": "^4.13.9",
+    "request": "^2.83.0"
+  }
+}
