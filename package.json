@@ -4,8 +4,12 @@
   "description": "JavaScript MapData Jugaad",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1"
 	"start": "node index.js"
+=======
+    "start": "node index.js"
+>>>>>>> acac8d03ce5b5d3a55d063431ce2013fa4391494
   },
   "repository": {
     "type": "git",
