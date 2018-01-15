@@ -13,16 +13,15 @@ app.get("/", function (req, res) {
   res.send("Deployed!");
 });
 app.post('/', function(req, res) {
-var credentials = {{
+var credentials = {
   "tileset": "pappussp1.cjbwkjod422u233nx1xp8ltzr-8kury",
   "url": "mapbox://datasets/pappussp1/cjbwkjod422u233nx1xp8ltzr",
   "name": "Player_Base"
-};
+	};
 client.createUpload({
    tileset: ["pappussp1", 'cjbwkjod422u233nx1xp8ltzr-8kury'].join('.'),
    url: credentials.url
 	}, function(err, upload) {
   console.log(upload);
-		});
 	});
 });
